@@ -1,14 +1,14 @@
 print('Hello World!')
 
-# Sinle line comment
+# Single line comment
 
 """
-Multiline 
-comment
+    Multiline 
+        comment
 """
 
 
-print("\nEscape Sequenceses")
+print("\nEscape sequence")
 print("""
     \\b - backspace
     \\a - Sound System bell
@@ -26,10 +26,10 @@ print("%15s %14s %11s" % ("Name", "Marks", "Age"))
 print("%15s %14.2f %11d" % ("John Doe", 80.67, 27))
 
 # Types of Variables
-city = 'London' # A string var assigment
-money = 100.75  # A floating point assigment
-count = 4       # An integer assigment
-a = b = c = 1   # Multiple assigment
+city = 'London'  # A string var assigment
+money = 100.75   # A floating point assigment
+count = 4        # An integer assigment
+a = b = c = 1    # Multiple assigment
 
 
 # Data types in Python
@@ -61,7 +61,7 @@ print("%30s %d" % ("Multiplication:  3 * 2 =", 3 * 2))
 print("%30s %f" % ("Division: 10 / 2 =", 10 / 2))
 print("%30s %d" % ("Modulus: 10 % 3 =", 10 % 3))
 print("%30s %d" % ("Addition: 10 + 1 =", 10 + 1))
-print("%30s %d" % ("Substraction: 10 - 1 =", 10 - 1))
+print("%30s %d" % ("Subtraction: 10 - 1 =", 10 - 1))
 
 
 # Type conversions
@@ -81,4 +81,15 @@ print ("\nAssignment operators")
 print(" =  +=  -=  *=  /=  **=")
 
 print ("\nBitwise operators")
-print("%30s %d" % ("Binary OR |", 10 - 1))
+print(" |  &  ~  ^  <<  >>")
+
+print ("\nLogical operators")
+print(" and  or  not")
+
+print ("\nMembership operators")
+print(" in  not in")
+print(" 'a' in 'a b c d' = " + str('a' in 'a b c d'))
+print(" 'xyz' not in 'a b c d' = " + str('xyz' not in 'a b c d'))
+
+print ("\nIdentity operators")
+print(" is,  not is,  id()")
